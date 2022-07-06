@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.system.backend.facedatabase.mapper.Face15attributesMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.system.backend.facedatabase.entity.Face15attributes">
+        <result column="imageId" property="imageId" />
+        <result column="imageFilename" property="imageFilename" />
+        <result column="beard" property="beard" />
+        <result column="bald" property="bald" />
+        <result column="eyeglasses" property="eyeglasses" />
+        <result column="smiling" property="smiling" />
+        <result column="wearingHat" property="wearingHat" />
+        <result column="male" property="male" />
+        <result column="shadow" property="shadow" />
+        <result column="mustache" property="mustache" />
+        <result column="bangs" property="bangs" />
+        <result column="blackHair" property="blackHair" />
+        <result column="blondeHair" property="blondeHair" />
+        <result column="brownHair" property="brownHair" />
+        <result column="grayHair" property="grayHair" />
+        <result column="straightHair" property="straightHair" />
+        <result column="wavyHair" property="wavyHair" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        imageId, imageFilename, beard, bald, eyeglasses, smiling, wearingHat, male, shadow, mustache, bangs, blackHair, blondeHair, brownHair, grayHair, straightHair, wavyHair
+    </sql>
+
+</mapper>

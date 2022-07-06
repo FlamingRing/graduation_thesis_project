@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.system.backend.facedatabase.mapper.Face8attributesMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.system.backend.facedatabase.entity.Face8attributes">
+        <result column="imageId" property="imageId" />
+        <result column="imageFilename" property="imageFilename" />
+        <result column="bigLips" property="bigLips" />
+        <result column="bigNose" property="bigNose" />
+        <result column="eyeglasses" property="eyeglasses" />
+        <result column="male" property="male" />
+        <result column="noBeard" property="noBeard" />
+        <result column="smiling" property="smiling" />
+        <result column="wearingHat" property="wearingHat" />
+        <result column="young" property="young" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        imageId, imageFilename, bigLips, bigNose, eyeglasses, male, noBeard, smiling, wearingHat, young
+    </sql>
+
+</mapper>
